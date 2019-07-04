@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style type="text/css">
+   body { background: salmon ; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+</style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="color: blue;background: salmon" >
+  <P>EMPLOYEE OTHER INFORMATION</P> 
+</div>
+  
+<div class="container">
+  <form class="form-horizontal" action="#" method="POST">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="form-group">
+           <div class="col-xs-9">
+              <label  for="id">ID</label>
+              <input class="form-control" type="text" name="id" id="id" placeholder="Enter Id" >
+           </div>
+      </div>
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="pan">PAN</label>
+               <input class="form-control" type="text" name="pan" id="pan" placeholder="Enter PAN Number">
+           </div>
+      </div>
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="Marital">Marital Status</label>
+               <select class="form-control" type="text" name="Marital" id="Marital" >
+                    <option value="">Selerct Marital Status</option>
+                    <option value="1">Maried</option>
+                    <option value="2">Un-Marired</option>
+               </select>
+           </div>
+      </div> 
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="blood">Blood Group</label>
+               <select class="form-control" type="text" name="blood" id="blood" >
+                    <option value="">Selerct Blood Group</option>
+                    <option value="1">A</option>
+                    <option value="2">A+</option>
+                    <option value="3">B</option>
+                    <option value="4">B+</option>
+                    <option value="5">AB</option>
+                    <option value="6">O+</option>
+               </select>
+           </div>
+      </div> 
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label for="physical">Phisically Challenged?</label>
+               <select class="form-control" type="text" name="physical" id="physical" >
+                    <option value="">Selerct Blood Group</option>
+                    <option value="0">YES</option>
+                    <option value="1">NO</option>
+               </select>
+           </div>
+      </div>     
+    </div>
+    <div class="col-sm-4">
+      <div class="form-group">
+           <div class="col-xs-9">
+              <label  for="contact">Emergency Contact Number</label>
+              <input class="form-control" type="text" name="contact" id="contact" placeholder="Enter Emergency Contact Number" >
+           </div>
+      </div>
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="contactName">Emergency Contact Name</label>
+               <input class="form-control" type="text" name="contactName" id="contactName" placeholder="Enter Emergency Contact Name">
+           </div>
+      </div>  
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="nationality">Nationality</label>
+               <select class="form-control" type="text" name="nationality" id="nationality" >
+                    <option value="">Selerct Nationality</option>
+                    <option value="1">Indian</option>
+                    <option value="2">USA</option>
+               </select>
+           </div>
+      </div> 
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="religion">Religion</label>
+               <select class="form-control" type="text" name="religion" id="religion" >
+                    <option value="">Selerct Religion</option>
+                    <option value="1">HIndue</option>
+                    <option value="2">Muslim</option>
+                    <option value="3">Christan</option>
+                    <option value="4">Sikh</option>
+                    <option value="5">Panjabi</option>
+               </select>
+           </div>
+      </div> 
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="FatherName">Father Name</label>
+               <input class="form-control" type="text" name="FatherName" id="FatherName" placeholder="Enter Father Name">
+           </div>
+      </div> 
+    </div>
+    <div class="col-sm-4">
+      <div class="form-group">
+           <div class="col-xs-9">
+              <label  for="MotherName">Mother Name</label>
+              <input class="form-control" type="text" name="MotherName" id="MotherName" placeholder="Enter Mother Name" >
+           </div>
+      </div>
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="SpouseName">Spouse Name</label>
+               <input class="form-control" type="text" name="SpouseName" id="SpouseName" placeholder="Enter Spouse Name">
+           </div>
+      </div> 
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="passport">Passport Number</label>
+               <input class="form-control" type="text" name="passport" id="passport" placeholder="Enter Passport Number">
+           </div>
+      </div>
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="AadharNumber">Aadhar Number</label>
+               <input class="form-control" type="text" name="AadharNumber" id="AadharNumber" placeholder="Enter Aadhar Number">
+           </div>
+      </div> 
+      <input class="btn btn-primary" type="reset" value="Reset">
+      <input class="btn btn-primary" type="submit" value="Submit">
+
+    </div>
+  </div>
+  </form>
+</div>
+
+</body>
+</html>

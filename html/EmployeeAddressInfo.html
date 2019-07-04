@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style type="text/css">
+   body { background: salmon ; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+</style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="color: blue;background: salmon" >
+  <P>EMPLOYEE ADDRESS INFORMATION</P> 
+</div>
+  
+<div class="container">
+  <form class="form-horizontal" action="#" method="POST">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="form-group">
+           <div class="col-xs-9">
+              <label  for="id">ID</label>
+              <input class="form-control" type="text" name="id" id="id" placeholder="Enter Id" >
+           </div>
+      </div>
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="gender">Gender</label>
+               <select class="form-control" type="text" name="gender" id="gender" >
+                    <option value="">Selerct Gender</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">3rd Gender</option>
+               </select>
+           </div>
+      </div> 
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="address1">Address1</label>
+               <input class="form-control" type="text" name="address1" id="address1" placeholder="Enter Address Line1">
+           </div>
+      </div>
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="address2">Address2</label>
+               <input class="form-control" type="text" name="address2" id="address2" placeholder="Enter Address Line2">
+           </div>
+      </div>
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="landmark">Landmark</label>
+               <input class="form-control" type="text" name="landmark" id="landmark" placeholder="Enter Landmark">
+           </div>
+      </div> 
+      <div class="form-group">
+           <div class="col-xs-9">
+              <label  for="city">City</label>
+              <input class="form-control" type="text" name="city" id="city" placeholder="Enter City" >
+           </div>
+      </div> 
+     </div> 
+    <div class="col-sm-6">
+      
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="state">State</label>
+               <input class="form-control" type="text" name="state" id="state" placeholder="Enter State">
+           </div>
+      </div>
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="country">Country</label>
+               <input class="form-control" type="text" name="country" id="country" placeholder="Enter Country">
+           </div>
+      </div> 
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="pin">Pincode</label>
+               <input class="form-control" type="text" name="pin" id="pin" placeholder="Enter Pincode">
+           </div>
+      </div>
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="DeptId">Depertment Id</label>
+               <input class="form-control" type="text" name="DeptId" id="DeptId" placeholder="Enter Dept Id">
+           </div>
+      </div> 
+
+      <div class="form-group">
+            <div class="col-xs-9">
+               <label  for="ManagerId">Manager Id</label>
+               <input class="form-control" type="text" name="ManagerId" id="ManagerId" placeholder="Enter Manager Id">
+           </div>
+      </div> 
+      <input class="btn btn-primary" type="reset" value="Reset">
+      <input class="btn btn-primary" type="submit" value="Submit">
+
+    </div>
+  </div>
+  </form>
+</div>
+
+</body>
+</html>
